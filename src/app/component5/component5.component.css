@@ -1,0 +1,18 @@
+.component5 {
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .component5 h2 {
+    color: #c2185b;
+    margin-bottom: 10px;
+  }
+  
+  .component5 p {
+    color: #d81b60;
+  }
+  

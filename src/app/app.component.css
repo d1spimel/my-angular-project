@@ -1,0 +1,27 @@
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  

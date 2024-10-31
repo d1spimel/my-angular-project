@@ -1,0 +1,18 @@
+.component4 {
+    background-color: #f1f8e9;
+    border: 2px solid #a5d6a7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .component4 h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  .component4 p {
+    color: #388e3c;
+  }
+  
