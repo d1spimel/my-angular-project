@@ -1,0 +1,10 @@
+.animated-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+  }
+  

@@ -5,6 +5,9 @@ import { ParentComponent } from './parent-component/parent-component.component';
 import { Component3Component } from './component3/component3.component';
 import { Component4Component } from './component4/component4.component';
 import { Component5Component } from './component5/component5.component';
+import { ReusableAnimationComponent } from './reusable-animation/reusable-animation.component';
+import { KeyframeAnimationComponent } from './keyframe-animation/keyframe-animation.component';
+import { StateAnimationComponent } from './state-animation/state-animation.component';
 
 @Component({
   selector: 'app-root',
@@ -16,8 +19,13 @@ import { Component5Component } from './component5/component5.component';
     ParentComponent,
     Component3Component,
     Component4Component,
-    Component5Component
+    Component5Component,
+    ReusableAnimationComponent,
+    KeyframeAnimationComponent,
+    StateAnimationComponent
   ],
   standalone: true
 })
-export class AppComponent { }
+export class AppComponent {
+  title = "My Angular Project!";
+}

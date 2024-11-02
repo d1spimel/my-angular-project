@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChildComponent } from './child-component.component';
+import { StateAnimationComponent } from './state-animation.component';
 
-describe('ChildComponent', () => {
-  let component: ChildComponent;
-  let fixture: ComponentFixture<ChildComponent>;
+describe('StateAnimationComponent', () => {
+  let component: StateAnimationComponent;
+  let fixture: ComponentFixture<StateAnimationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ChildComponent]
+      imports: [StateAnimationComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChildComponent);
+    fixture = TestBed.createComponent(StateAnimationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

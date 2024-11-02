@@ -6,4 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./component3.component.css'],
   standalone: true
 })
-export class Component3Component { } // Ensure this name matches the import
+export class Component3Component { }

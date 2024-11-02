@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./child-component.component.css'],
   standalone: true
 })
-export class ChildComponent {
+export class ChildComponent {  // Make sure this class name matches your import
   @Input() parentMessage!: string;
 }

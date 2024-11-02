@@ -1,5 +1,4 @@
-<div class="first-component">
-    <h2>First Component</h2>
-    <p>This component is created to demonstrate the basic structure of Angular.</p>
-  </div>
-  
+<div [@toggleAnimation]="isOpen ? 'open' : 'closed'">
+  <p>Animated Box</p>
+</div>
+<button (click)="toggle()">Toggle Animation</button>
